@@ -15,6 +15,8 @@
 * bspwm
 * sxhkd
 
+* rofi
+
 ### Networking
 * systemd-networkd
 * wpa_supplicant
