@@ -14,7 +14,6 @@
 ### Desktop Environment
 * bspwm
 * sxhkd
-
 * rofi
 
 ### Networking
@@ -23,8 +22,29 @@
 * dhclient (opt)
 
 ### Utils
+* base-devel
 * git
+* termite
 * neovim
 * sudo
 * firefox
 
+
+#### Termite theme:
+
+- https://github.com/adi1090x/termite-style
+
+* Dracula
+* Go 11
+
+
+### AUR
+
+
+```
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
+* polybar
