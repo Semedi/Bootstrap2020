@@ -24,30 +24,31 @@
 ### Utils
 * base-devel
 * git
-* termite
 * neovim
 * sudo
 * firefox
 
-
-#### Termite theme:
-
-- https://github.com/adi1090x/termite-style
-
-* Dracula
-* Go 11
-
-
-### AUR
-
+* yay
 ```
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
 
-* polybar
+* termite
+- https://github.com/adi1090x/termite-style
 
-### Zsh
+* * Dracula
+* * Go 11
 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+* ohzsh
+```
+   sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+* ohtmux
+```
+    cd
+    git clone https://github.com/gpakosz/.tmux.git
+    ln -s -f .tmux/.tmux.conf
+    cp .tmux/.tmux.conf.local .
+```
