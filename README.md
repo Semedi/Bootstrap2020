@@ -12,9 +12,9 @@
 * xf86-input-libinput
 
 ### Desktop Environment
-* bspwm
+* bspwm || i3
 * sxhkd
-* rofi
+* rofi || dmenu
 
 ### Networking
 * systemd-networkd
@@ -40,7 +40,6 @@
 
 ### AUR
 
-
 ```
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -48,3 +47,7 @@ makepkg -si
 ```
 
 * polybar
+
+### Zsh
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
